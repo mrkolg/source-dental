@@ -1,0 +1,59 @@
+// Colors
+// Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+// Color names - http://name-of-color.com/
+
+$gray: #999;
+$black: #000;
+$white: #fff;
+$blue-light: #0071bc;
+$blue: #004171;
+$green: #a6bd68;
+$orange: #e6b34f;
+
+$font-oxygen: 'Oxygen', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-josefin: 'Josefin Sans', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-raleway: 'Raleway', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-ptsans: 'PT Sans', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+$base-font-sans-serif: $font-oxygen;
+$base-font-serif: 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
+
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white !default;
+$font-size-base: 16px !default;
+$line-height-base: 1.625;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $orange;
+
+// Buttons
+$btn-color: $white !default;
+$btn-background: $orange;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $blue;
+$form-element-focus-border-color: $orange;
+$placeholder-color: #ccc;
+
+// Headers
+$h1-font-size: 52px !default;
+$h2-font-size: 46px !default;
+$h3-font-size: 36px !default;
+$h4-font-size: 24px !default;
+$h5-font-size: 20px !default;
+$h6-font-size: 17px !default;
+
+$headings-font-family: $font-josefin;
+$headings-color: $green;
+
+
+$animation-speed: 0.3s;
